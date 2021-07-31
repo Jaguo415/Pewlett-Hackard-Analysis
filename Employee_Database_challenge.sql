@@ -1,7 +1,7 @@
 -- ALL previous Tables created from CSV's used throught the module
 -- Create a new table with current employees born between 1/1/1952 - 12/31/1955.
 -- extract first name, last name, title, from date, and salary
--- This includes everyone, even duplications. 
+-- This includes everyone, even if they changed roles, which means we will have duplications. 
 select e.emp_no,
 	e.first_name,
 	e.last_name,
