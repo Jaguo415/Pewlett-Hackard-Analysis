@@ -50,7 +50,10 @@ create table title(
 	emp_no int not null,
 	title varchar(50) not null,
 	from_date date not null,
-	to_date date not null
+	to_date date not null,
+	foreign key (emp_no) references employees(emp_no),
+	primary key (emp_no, title, from_date)
+
 
 );
 
@@ -66,4 +69,27 @@ create table dept_emp(
 	primary key(emp_no, dept_no)
 );
 
+copy departments from '/Users/jguo/public/departments.csv'
+with delimiter ','
+csv header;
 
+copy employees from '/Users/jguo/public/employees.csv'
+with delimiter ','
+csv header;
+
+copy dept_manager from '/Users/jguo/public/dept_manager.csv'
+with delimiter ','
+csv header;
+
+
+copy title from '/Users/jguo/public/titles.csv'
+with delimiter ','
+csv header;
+
+copy salarys from '/Users/jguo/public/salaries.csv'
+with delimiter ','
+csv header;
+
+copy dept_emp from '/Users/jguo/public/dept_emp.csv'
+with delimiter ','
+csv header;
