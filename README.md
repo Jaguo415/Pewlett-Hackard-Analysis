@@ -43,7 +43,7 @@ Now that we have our unique list by titles. We re-formated the table to provide 
 ## Results:
 
 ### "silver tsunami" Program eligibility: 
-Based off our Unique title analysis we apply a filter for irth_date between '1965-01-01' and '1965-12-31'. This new table has 2382 employees eligble for the Silver Tsunami mentorship program. We saved this table as mentorship.csv. Please reference it in data folder.
+Based off our Unique title analysis we apply a filter for Birth_date between '1965-01-01' and '1965-12-31'. This new table has 2382 employees eligble for the Silver Tsunami mentorship program. We saved this table as mentorship.csv. Please reference it in data folder.
 
 
 <img width="768" alt="Screen Shot 2021-08-03 at 12 35 21 PM" src="https://user-images.githubusercontent.com/83923903/128075535-4c4515d3-2978-4338-8fa1-e7fea78df29b.png">
