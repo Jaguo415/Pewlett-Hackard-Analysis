@@ -14,7 +14,7 @@ We begin by creating a Entity Relationship Diagram. Here is the diagram we creat
 
 
 ## ERD After Challenge 7
-Heres our Diagram aftermath of challenge 7.
+Here we have our Diagram but post challenge 7.
 <img width="972" alt="Screen Shot 2021-08-03 at 12 06 48 PM" src="https://user-images.githubusercontent.com/83923903/128071994-77fb07ae-4e66-486f-8a87-e22e3f526a16.png">
 
 
