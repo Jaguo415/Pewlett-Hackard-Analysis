@@ -7,16 +7,15 @@ Bobby's manager has two more assignments for us. Determine the number of retirin
 
 
 ## ERD (Entity Relationship Diagram): 
-
-We begin by creating a Entity Relationship Diagram. Here is the diagram we created during module 7. We will be adding additional relationships into the challenge. Please reference ERD after Challenge 7
+### ERD Pre Challenge 7
+We begin by creating a Entity Relationship Diagram. Here is the diagram we created during the lessons throughout module 7. We will be adding additional tables and relationships throughout the challenge.
 
 <img width="329" alt="Screen Shot 2021-08-03 at 12 12 12 PM" src="https://user-images.githubusercontent.com/83923903/128072581-a54616ed-d7ab-464b-955c-9f2584aaa0f6.png">
 
 
-## ERD After Challenge 7
-Here we have our Diagram but post challenge 7.
+### ERD Post Challenge 7
+Here we have our Diagram post Module 7 challenge.
 <img width="972" alt="Screen Shot 2021-08-03 at 12 06 48 PM" src="https://user-images.githubusercontent.com/83923903/128071994-77fb07ae-4e66-486f-8a87-e22e3f526a16.png">
-
 
 
 ## Overview of Analysis:
@@ -52,6 +51,6 @@ Based off our Unique title analysis we apply a filter for irth_date between '196
 
 ## Summary: 
 
-In this challenge, we applied advanced queries and joins to create new tables and list of candidates who are eligible for the silver tsunami mentorship program. To complete this task, we applied our knowledge from mod 7. Specifically aliasing, filtering, and creating new tables. Exporting the data into readable CSV files. 
+In this challenge, we applied queries and joins to create additional new tables to pgadmin as well as list of candidates who are eligible for the silver tsunami mentorship program exported to csv. To complete this task, we applied our knowledge from mod 7. Specifically aliasing, filtering, and creating new tables. Exporting the data into multiple readable CSV files. 
 
 
