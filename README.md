@@ -21,7 +21,7 @@ Here we have our Diagram post Module 7 challenge.
 ## Overview of Analysis:
 
 - Create a Retirement Title Table with data from Current_Emp and Titles CSV
-- Apply a filter to_where date for active employees
+- Apply a filter to_where date for 1999-01-01, this will return only active employees
 - De-dup the data by using a partition. Removing older roles and only keeping the most recent title.
 - After we have partition the data. Create a new table to get the count of employees by their titles.
 - Created a new table of employees who are eligible for Silver Tsunami mentorship program. 
