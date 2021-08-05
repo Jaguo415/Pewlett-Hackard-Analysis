@@ -38,7 +38,7 @@ However this data includes duplications as we can see from the screenshot above.
 
 ### Number of Unique Retiring titles Table:
 
-to fix the duplications we PARTITIONED the data by emp_no. This created a new column "RN" that counted the number of titles with 1 being the most recent. We filtered "RN" = 1 be get only the most recent job title and export this into a unique_titles table. lowering the amount of rows from 54722 to only 33118. We exported this new table into the Unique_title.csv file. Please find it in the data folder.
+to fix the duplications we PARTITIONED the data by emp_no. This created a new column "RN" that counted the number of titles with 1 being the most recent. We filtered "RN" = 1 be get only the most recent job title and export this into a unique_titles table. We can confirm the duplications were removed as the amount of rows decreased from 54722 to only 33118 post Partitioned. We exported this new table into the Unique_title.csv file. Please find it in the data folder.
 
 <img width="765" alt="Screen Shot 2021-08-03 at 12 33 48 PM" src="https://user-images.githubusercontent.com/83923903/128075217-0f8c7870-db8d-4067-950d-78bb041fb782.png">
 
