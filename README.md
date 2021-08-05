@@ -20,7 +20,15 @@ Here we have our Diagram post Module 7 challenge.
 
 ## Overview of Analysis:
 
-### Number of Employees eligble for retirement
+- Create a Retirement Title Table with data from Current_Emp and Titles CSV
+- Apply a filter to_where date for active employees
+- De-dup the data by using a partition. Removing older roles and only keeping the most recent title.
+- After we have partition the data. Create a new table to get the count of employees by their titles.
+- Created a new table of employees who are eligible for Silver Tsunami mentorship program. 
+
+### Number of Employees eligble for retirement:
+
+
 We begin by INNER JOINING Current_emp and Titles merging on emp_no into a brand new table called ret_titles. We export this into a ret_title.csv please find it by reference the data folder.  This output had 54722 employees eligible for retirement. 
 
 <img width="760" alt="Screen Shot 2021-08-03 at 12 28 23 PM" src="https://user-images.githubusercontent.com/83923903/128074571-0d1c8229-7584-473a-8111-3360633c9b97.png">
@@ -42,7 +50,7 @@ Now that we have our unique list by titles. We re-formated the table to provide 
 
 ## Results:
 
-### "silver tsunami" Program eligibility: 
+### "silver tsunami" Candidate eligibility: 
 Based off our Unique title analysis we apply a filter for Birth_date between '1965-01-01' and '1965-12-31'. This new table has 2382 employees eligble for the Silver Tsunami mentorship program. We saved this table as mentorship.csv. Please reference it in data folder.
 
 
@@ -51,6 +59,6 @@ Based off our Unique title analysis we apply a filter for Birth_date between '19
 
 ## Summary: 
 
-In this challenge, we applied queries and joins to create additional new tables to pgadmin as well as list of candidates who are eligible for the silver tsunami mentorship program exported to csv. To complete this task, we applied our knowledge from mod 7. Specifically aliasing, filtering, and creating new tables. Exporting the data into multiple readable CSV files. 
+In this challenge, we applied queries and joins to create additional new tables to pgadmin as well as created a list of candidates who are eligible for the silver tsunami mentorship program. We exported our various tables to csv file located in the data folder. To Successfully complete this challenge, we applied our knowledge from mod 7. This means importing csv's, aliasing, apply filtering, and creating new tables. Exporting the new datasets into multiple readable CSV files. 
 
 
