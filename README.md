@@ -29,7 +29,11 @@ Here we have our Diagram post Module 7 challenge.
 ### Number of Employees eligble for retirement:
 
 
+
 We begin by INNER JOINING Current_emp and Titles merging on emp_no into a brand new table called ret_titles. We export this into a ret_title.csv please find it by reference the data folder.  This output had 54722 employees eligible for retirement. 
+
+
+<img width="466" alt="Screen Shot 2021-08-09 at 6 32 42 PM" src="https://user-images.githubusercontent.com/83923903/128794911-018028f6-218a-466b-9e45-b1025c99ed7f.png">
 
 <img width="760" alt="Screen Shot 2021-08-03 at 12 28 23 PM" src="https://user-images.githubusercontent.com/83923903/128074571-0d1c8229-7584-473a-8111-3360633c9b97.png">
 
@@ -40,11 +44,20 @@ However this data includes duplications as we can see from the screenshot above.
 
 to fix the duplications we PARTITIONED the data by emp_no. This created a new column "RN" that counted the number of titles with 1 being the most recent. We filtered "RN" = 1 be get only the most recent job title and export this into a unique_titles table. We can confirm the duplications were removed as the amount of rows decreased from 54722 to only 33118 post Partitioned. We exported this new table into the Unique_title.csv file. Please find it in the data folder.
 
+<img width="252" alt="Screen Shot 2021-08-09 at 6 37 14 PM" src="https://user-images.githubusercontent.com/83923903/128795115-350ca945-3c50-47b8-8bac-004bcc4a84b0.png">
+
 <img width="765" alt="Screen Shot 2021-08-03 at 12 33 48 PM" src="https://user-images.githubusercontent.com/83923903/128075217-0f8c7870-db8d-4067-950d-78bb041fb782.png">
 
 
 ### Retirement Title Table:
+
+
 Now that we have our unique list by titles. We re-formated the table to provide us the count based off job title. We exported this count table into retiring_titles.csv. Please find it in the data folder.
+
+
+<img width="269" alt="Screen Shot 2021-08-09 at 6 37 59 PM" src="https://user-images.githubusercontent.com/83923903/128795230-40d9dc53-b195-4e18-9ec8-05fdeac30fec.png">
+
+
 
 <img width="270" alt="Screen Shot 2021-08-03 at 12 05 06 PM" src="https://user-images.githubusercontent.com/83923903/128071857-850d66bf-980e-4a09-ad4a-34b70aa6104f.png">
 
@@ -52,6 +65,9 @@ Now that we have our unique list by titles. We re-formated the table to provide 
 
 ### "silver tsunami" Candidate eligibility: 
 Based off our Unique title analysis we apply a filter for Birth_date between '1965-01-01' and '1965-12-31'. This new table has 2382 employees eligble for the Silver Tsunami mentorship program. We saved this table as mentorship.csv. Please reference it in data folder.
+
+<img width="456" alt="Screen Shot 2021-08-09 at 6 39 27 PM" src="https://user-images.githubusercontent.com/83923903/128795311-2e955abe-64fb-4b4a-ad5b-687810d6e972.png">
+
 
 
 <img width="768" alt="Screen Shot 2021-08-03 at 12 35 21 PM" src="https://user-images.githubusercontent.com/83923903/128075535-4c4515d3-2978-4338-8fa1-e7fea78df29b.png">
